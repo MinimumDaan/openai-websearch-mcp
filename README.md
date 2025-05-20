@@ -1,5 +1,7 @@
 # OpenAI Web Search MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@MinimumDaan/openai-websearch-mcp)](https://smithery.ai/server/@MinimumDaan/openai-websearch-mcp)
+
 MCP Server for OpenAI's Web Search API, enabling AI models to search the web
 for current information before generating responses.
 
@@ -85,6 +87,15 @@ To use this with Claude Desktop, add the following to your
 
 #### Using NPX
 
+##### Installing via Smithery
+
+To install openai-websearch-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@MinimumDaan/openai-websearch-mcp):
+
+```bash
+npx -y @smithery/cli install @MinimumDaan/openai-websearch-mcp --client claude
+```
+
+##### Installing manually via NPX
 ```json
 {
   "mcpServers": {
